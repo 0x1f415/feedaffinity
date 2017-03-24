@@ -2,8 +2,6 @@
 
 proxy service for subscribing to [furaffinity](https://furaffinity.net) galleries and journals via RSS.
 
-obviously there is no code yet, but hopefully there will be soon.
-
 ## why?
 
 because FA sucks. the site was created in 2005 when the internet was a different place. it's 2017 now and nobody cares anymore, and many artists post their art on twitter and/or tumblr.
