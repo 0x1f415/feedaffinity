@@ -1,0 +1,14 @@
+{
+  "name": "feedaffinity",
+  "description": "proxy service for subscribing to [furaffinity](https://furaffinity.net) galleries and journals via RSS.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:0x1f415/feedaffinity.git"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  }
+}

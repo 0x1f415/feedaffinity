@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>feedaffinity</title>
+	</head>
+	<body>
+		<span>put your cookie here:</span>
+		<input type="text" id="cookieText"></input>
+		<button id="cookieButton">submit</button>
+		<script>
+			var cookieText = document.getElementById('cookieText');
+			var cookieButton = document.getElementById('cookieButton');
+			cookieButton.addEventListener('click', function () {
+				var cookieTextValue = cookieText.value;
+				window.location = '/frontpage/' + encodeURIComponent(cookieTextValue);
+			});
+		</script>
+	</body>
+</html>
